@@ -55,25 +55,24 @@ public class Main {
             switch (key) {
                 case "w":
                     playerY -= 1;
-                    e1y+=1;
-                    e2x-=1;
+                  
                     break;
                 case "s":
                     playerY += 1;
 
-                    e1y+=1;
-                    e2x-=1;
+             
                     break;
                 case "a":
                     playerX -= 1;
-                    e1y+=1;
-                    e2x-=1;
+                 
                     break;
                 case "d":
                     playerX += 1;
-                    e1y+=1;
-                    e2x-=1;
+                   
+                 
                     break;
+                      e1y+=1;
+                    e2x-=1;
             }
             if (playerY == -1) playerY = map.length - 1;
             if (playerY == map.length) playerY = 0;
